@@ -267,6 +267,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   cursor: pointer;
 }
 .work-m {
+  background-color: #FFFFFF;
   margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -344,8 +345,15 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   margin-right: 53px;
 }
 .hero {
+  max-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
   height: 600px;
+  background-image: linear-gradient(
+    rgba(196,	196,	196, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/im18.jpg);
+  background-repeat: no-repeat;
   background-color: #2f303a;
 }
 .card-set {
@@ -367,7 +375,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   text-align: center;
   justify-content: center;
   gap: 30px;
-}
 }
 
 .footer-informations {
@@ -419,8 +426,8 @@ border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
 }
 .item-peculiarities{
-  width: 270px;
-  display: list-item;
+  max-width: 270px;
+
 }
 .container-peculiarities section{
   padding: 94px 0;
@@ -430,3 +437,49 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   gap: 30px;
 }
+.contact-link-headr_mail{
+  height: 12px;
+  width: 16px;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+.contact-link-headr_phone{
+height: 16px;
+width: 10px;
+margin-right: 10px;
+}
+.icon-headr{
+max-height: 70px;
+max-width: 65px;
+}
+.icon-headrs{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.socials__link{
+fill: #AFB1B8;
+display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: #AFB1B8;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+}
+.socials__link:hover,
+.socials__link:focus {
+  color: floralwhite;
+  background-color: #2196F3
+}
+  .socials__icon {
+    width: 20px;
+    height: 20px;
+  }

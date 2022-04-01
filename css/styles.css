@@ -469,17 +469,17 @@ display: inline-flex;
   align-items: center;
   width: 44px;
   height: 44px;
-  color: #AFB1B8;
+  color: #fff;
   background-color: #fff;
   border-radius: 50%;
   transition: all 0.3s ease-in;
 }
 .socials__link:hover,
 .socials__link:focus {
-  color: floralwhite;
+  fill: #fff;
   background-color: #2196F3
 }
-  .socials__icon {
+  .socials__icon{
     width: 20px;
     height: 20px;
   }

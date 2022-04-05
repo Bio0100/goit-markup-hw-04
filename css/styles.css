@@ -167,16 +167,21 @@ color: var(--second-color);
   color: var(--second-color);
 }
 .list-photo {
+  margin-bottom: 16px;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
 .list-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
 }
 .navigations-list:hover,
 .contact-link:hover,
@@ -380,12 +385,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 
 .list-m {
   display: flex;
-  flex-basis: calc(100% / 4);
-  flex-wrap: wrap;
-  list-style: none;
-  text-align: center;
   justify-content: center;
   gap: 30px;
+  margin: 0px;
 }
 
 .footer-informations {
@@ -409,9 +411,10 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   
 }
 .list-teams{
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+  background-color: var(--white-color);
 }
 .struducture{
   padding-top: 94px;
@@ -484,11 +487,10 @@ max-width: 65px;
   background-color: #fff;
   border-radius: 50%;
   transition: background-color 0.3s ease-in;
-  /* margin-top: 30px;   */
 }
 
 .socials__item:hover,
-.socials__item:focus {
+.socials__item:focus{
   background-color: var(--accent-color);
 }
 
@@ -606,4 +608,16 @@ text-align: left;
       }
       .contact-links:not(:last-child) {
         margin-bottom: 9px;
+    }
+    .list-teams{
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
+    
+    .socials__list{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .photo-ds{
+      margin-bottom: 30px;
     }

@@ -576,16 +576,10 @@ text-align: left;
 .footer-all {
   display: flex;
   align-items: baseline;
-  background-color: #2f303a;;
+  background-color: #2f303a;
 }
-
-    .footer__flex-item .socials__item{
-      background-color: #757575;
-    }
-    
-
-    .footer__flex-item .socials__item:hover,
-    .footer__flex-item .socials__item:focus{
+    .footer__flex-item .socials__link:hover,
+    .footer__flex-item .socials__link:focus{
     background-color: #2196F3;
     }
 
@@ -640,6 +634,7 @@ text-align: left;
       line-height: 24px;
       letter-spacing: 0.03em;
       color: #FFFFFF;}
+
       .footer__flex-item .socials__link{
-        background-color: rgba(255, 255, 255, 0.02);
+        background-color: rgba(255, 255, 255, 0.1);
       }

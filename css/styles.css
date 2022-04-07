@@ -680,8 +680,6 @@ text-align: left;
       .icon-cls{
         width: 18px;
         height: 18px;
-        border-radius: 0px;
-        color: #000000;
       }
       .modal-close{
         position: absolute;
@@ -787,6 +785,11 @@ text-align: left;
           line-height: 1.56;
           letter-spacing: 0.03em;
           color: #fff;
+        }
+        .current::after, .navigation__link:hover::after, .navigation__link:focus::after {
+          transform: scale(1);
+          opacity: 1;{
+
         }
 
 

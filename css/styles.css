@@ -789,8 +789,10 @@ text-align: left;
         }
         .current::after, .navigation__link:hover::after, .navigation__link:focus::after {
           transform: scale(1);
-          opacity: 1;{
-
+          opacity: 1;
+        }
+        .current{
+          color: #2196F3;
         }
 
 
